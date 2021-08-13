@@ -260,9 +260,9 @@ int leftSensor() {
   digitalWrite(leftTrig, LOW);
 
   //Calculation of distance: d = t*v
-  //distance = (time taken for ultrasensor response x speed of sound in cm/ms)/2
-  //An integer of 2 is used because the time taken is for an ultrasensor response is an echo
-  //Therefore the time taken to reach object is half the time for the ultrasensor to pick up a response
+  //distance = (time taken for ultrasound response x speed of sound in cm/ms)/2
+  //An integer of 2 is used because the time taken is for an ultrasound sensor response is an echo
+  //Therefore the time taken to reach object is half the time for the ultrasound to pick up a response
   leftDuration = pulseIn(leftEcho, HIGH);
   leftDistance = (leftDuration * 0.0343) / 2;
 
