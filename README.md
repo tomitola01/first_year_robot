@@ -1,7 +1,7 @@
 # First Year Robot Project
 For my first year Embedded Systems module, an ultrasound controlled robot was created to complete given tasks. <br />
 <br />
-The arduino sketch can be found in the Robot_Design directory.<br />
+The Arduino sketch can be found in the Robot_Design directory.<br />
 <br />
 Task 1 required the robot to travel in a straight line for two meters, using encoders calculate the distance and keep within the limits of a single lane 0.35m wide. <br />
 A demonstration of task 1 can be viewed by watching the Task1.mp4 video.<br />
